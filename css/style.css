@@ -1,0 +1,272 @@
+                            @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+                            @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+                            @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+                            @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+                            @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+                            * {
+                                font-family: 'Oswald', sans-serif;
+                                padding: 0;
+                                margin: 0;
+                                box-sizing: border-box;
+                                text-decoration: none;
+                                text-transform: capitalize;
+                            }
+                            
+                            html {
+                                overflow-x: hidden;
+                                font-size: 62%
+                            }
+                            
+                            body {
+                                background-color: rgb(0, 145, 255);
+                            }
+                            
+                            header {
+                                width: 100%;
+                                background: rgb(255, 255, 255, 0.2);
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                position: fixed;
+                                top: 5 .5rem;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                border-radius: .5rem;
+                                box-shadow: 0 .3re, .5rem rgba(0, 0, 0, .3);
+                                padding: .9rem 2rem;
+                                transform: .2s liner;
+                            }
+                            
+                            header .logo {
+                                color: rgb(255, 255, 255);
+                                font-size: 3rem;
+                            }
+                            
+                            .about {
+                                width: 100%;
+                                background: rgb(0, 131, 254);
+                                color: #fff;
+                                height: 28%;
+                                display: block;
+                                justify-content: center;
+                                position: absolute;
+                                top: 45%;
+                                box-shadow: 0 .3re, .5rem rgba(0, 0, 0, .3);
+                                font-size: large;
+                            }
+                            
+                            .about h2 {
+                                position: absolute;
+                                top: 35%;
+                                font-family: 'Raleway', sans-serif;
+                                left: 46.2%;
+                            }
+                            
+                            .about:hover {
+                                background: rgb(0, 10, 28);
+                                color: rgb(0, 132, 255);
+                                font-size: x-large;
+                                transition: 1s;
+                            }
+                            
+                            .contact {
+                                width: 100%;
+                                background: rgb(255, 255, 255);
+                                color: rgb(0, 131, 254);
+                                height: 28%;
+                                display: block;
+                                justify-content: center;
+                                position: absolute;
+                                top: 72%;
+                                box-shadow: 0 .3re, .5rem rgba(0, 0, 0, .3);
+                                font-size: large;
+                            }
+                            
+                            .contact h2 {
+                                position: absolute;
+                                top: 35%;
+                                font-family: 'Raleway', sans-serif;
+                                left: 45%;
+                                text-transform: capitalize;
+                            }
+                            
+                            .contact:hover {
+                                background: rgb(1, 66, 126);
+                                color: #fff;
+                                font-size: x-large;
+                                transition: 1s;
+                            }
+                            
+                            .start {
+                                width: 100%;
+                                background-image: url(aero.jpg);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                height: 45%;
+                                top: 10%;
+                                padding-left: 2%;
+                            }
+                            
+                            .first {
+                                font-size: 24px;
+                            }
+                            
+                            #but {
+                                padding: 0.5% 0.5% 0.5% 0.5%;
+                                border-radius: 15px 50px 30px;
+                                background: transparent;
+                                font-weight: bold;
+                                color: #fff;
+                                font-size: 20px;
+                                font-family: 'Mukta', sans-serif;
+                                border-color: #fff;
+                            }
+                            
+                            #but:hover {
+                                background: #fff;
+                                color: rgb(55, 54, 54);
+                                font-size: 22px;
+                                transition: 0.6s;
+                            }
+                            
+                            .start h1 {
+                                font-family: 'Raleway', sans-serif;
+                                text-decoration: none;
+                                text-transform: capitalize;
+                                font-size: 200dp;
+                            }
+                            
+                            .start h1 {
+                                font-family: 'Raleway', sans-serif;
+                                text-decoration: none;
+                                text-transform: capitalize;
+                                font-size: 200dp;
+                            }
+                            
+                            .start span {
+                                font-family: 'Mukta', sans-serif;
+                                font-size: 80dp;
+                            }
+                            
+                            header .navbar ul {
+                                list-style: none;
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                margin: 0;
+                                padding: 0;
+                            }
+                            
+                            header .navbar ul li a {
+                                margin: 0 1rem;
+                                font-size: 2rem;
+                                color: #fff;
+                                transition: .2s linear;
+                            }
+                            
+                            header .navbar ul li a:hover {
+                                color: aqua;
+                            }
+                            
+                            .home {
+                                display: flex;
+                                min-height: 100vh;
+                                align-items: center;
+                                position: relative;
+                            }
+                            
+                            .video {
+                                z-index: -1;
+                                position: absolute;
+                            }
+                            
+                            .container {
+                                height: 100%;
+                                font-size: 30px;
+                                width: 25%;
+                                background-color: rgb(255, 255, 255);
+                                padding: 2rem 2rem 2rem 2rem;
+                                border-radius: 1rem;
+                                align-items: center;
+                                justify-content: center;
+                                box-shadow: 0 .3re, .5rem rgba(0, 0, 0, .3);
+                            }
+                            
+                            .container input {
+                                width: 100%;
+                                border-radius: 0.7rem;
+                                height: 30px;
+                                background-color: rgb(222, 222, 222);
+                                padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+                            }
+                            
+                            .container span {
+                                padding-bottom: 1rem;
+                                font-family: 'Kalam', cursive;
+                                color: rgb(0, 132, 255);
+                            }
+                            
+                            .container h3 {
+                                font-size: 28px;
+                                font-family: 'Kalam', cursive;
+                                padding-bottom: 1rem;
+                                justify-content: center;
+                            }
+                            
+                            .content {
+                                color: #fff;
+                                font-size: xx-large;
+                                display: block;
+                                width: 70%;
+                                padding-left: 2rem;
+                            }
+                            
+                            .video {
+                                background-size: contain;
+                            }
+                            
+                            .aboutus {
+                                font-family: 'Kalam', cursive;
+                                font-size: 50px;
+                                position: absolute;
+                                top: 7.5%;
+                                left: 1%;
+                            }
+                            /*header .fa-bars {
+                                font-size: 3rem;
+                                color: aqua;
+                                cursor: pointer;
+                                display: none;
+                            }
+                            
+                            @media(max-width:768px) {
+                                html {
+                                    font-size: 55%;
+                                }
+                                header .fa-bars {
+                                    display: block;
+                                }
+                                header .navbar {
+                                    position: fixed;
+                                    top: -100rem;
+                                    left: 50%;
+                                    transform: translateX(-50%);
+                                    width: 100%;
+                                    background-color: #fff;
+                                    border-radius: .5rem;
+                                    box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
+                                    z-index: 1000;
+                                    transition: .2s linear;
+                                }
+                                /*header .navbar ul {
+                                    flex-flow: column;
+                                }
+                                header .navbar ul li {
+                                    margin: 1rem 0;
+                                    width: 100%;
+                                    text-align: center;
+                                }
+                                header .navbar ul li a {
+                                    display: block;
+                                    font-size: 3rem;
+                                }*/
