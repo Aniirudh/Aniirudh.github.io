@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+* {
+    font-family: 'Oswald', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+html {
+    overflow-x: hidden;
+    font-size: 62%
+}
+
+img {
+    margin-top: 5%;
+    width: 50%;
+    z-index: -1;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    width: 100%;
+    background: rgba(131, 131, 131, 0.311);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 5 .5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: .5rem;
+    box-shadow: 0 .3re, .5rem rgba(0, 0, 0, .3);
+    padding: .9rem 2rem;
+    transform: .2s liner;
+}
+
+header .logo {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+}
+
+header .navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+header .navbar ul li a {
+    margin: 0 1rem;
+    font-size: 2rem;
+    color: #fff;
+    transition: .2s linear;
+}
+
+header .navbar ul li a:hover {
+    color: aqua;
+}
+
+.section-heading {
+    text-align: center;
+    color: rgb(52, 96, 173);
+    margin-top: 100px;
+    margin-bottom: 70px;
+    font-size: 35px;
+}
+
+.section-heading1 {
+    text-align: center;
+    color: rgb(52, 96, 173);
+    margin-top: 300px;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.column-3 {
+    margin: 70px;
+}
+
+.column-4 {
+    float: left;
+    width: 13%;
+    padding: 20px;
+    margin: 20px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.project-1 {
+    background-color: #ff0000;
+}
+
+.project-2 {
+    background-color: #ff0000;
+}
+
+.project-3 {
+    background-color: #ff0000;
+}
+
+.project-4 {
+    background-color: #ff0000;
+}
+
+.project-5 {
+    background-color: #ff0000;
+}
+
+.project-6 {
+    background-color: #ff0000;
+}
+
+.project-7 {
+    background-color: #ff0000;
+}
+
+.project-8 {
+    background-color: #ff0000;
+}
+
+.project-text {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.project-1:hover {
+    background-color: #FEDE00;
+}
+
+.project-2:hover {
+    background-color: #FEDE00;
+}
+
+.project-3:hover {
+    background-color: #FEDE00;
+}
+
+.project-4:hover {
+    background-color: #FEDE00;
+}
+
+.project-5:hover {
+    background-color: #FEDE00;
+}
+
+.project-6:hover {
+    background-color: #FEDE00;
+}
+
+.project-7:hover {
+    background-color: #FEDE00;
+}
+
+.project-text1 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+.heading {
+    margin-top: 80px;
+    position: absolute;
+    font-size: 40px;
+    left: 42%;
+    color: #ff0000;
+}
+
+.location {
+    float: left;
+    width: 80%;
+    padding: 5px 15px;
+    margin-top: 12%;
+    margin-left: 10%;
+    height: 250px;
+    border-radius: 10px;
+    background: rgb(52, 96, 173);
+}
+
+.location h2 {
+    font-size: 40px;
+    color: #fff;
+}
+
+#but1 {
+    padding: .5% .5%;
+    border-radius: 22px 22px;
+    background: transparent;
+    font-weight: bold;
+    color: #fff;
+    float: right;
+    margin-top: 100px;
+    margin-right: 30px;
+    margin-left: 40px;
+    font-size: 24px;
+    font-family: 'Mukta', sans-serif;
+    border-color: #fff;
+}
+
+#but1:hover {
+    background: #fff;
+    color: rgb(55, 54, 54);
+    font-size: 28px;
+    transition: 0.6s;
+}
+
+.location1 {
+    float: left;
+    width: 80%;
+    padding: 5px 15px;
+    margin-top: 2%;
+    margin-left: 10%;
+    height: 250px;
+    border-radius: 10px;
+    background: rgb(52, 96, 173);
+}
+
+.location1 h2 {
+    font-size: 40px;
+    color: #fff;
+}

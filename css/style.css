@@ -23,7 +23,7 @@
                             
                             header {
                                 width: 100%;
-                                background: rgb(255, 255, 255, 0.2);
+                                background: rgba(131, 131, 131, 0.311);
                                 display: flex;
                                 align-items: center;
                                 justify-content: space-between;
@@ -35,6 +35,7 @@
                                 box-shadow: 0 .3re, .5rem rgba(0, 0, 0, .3);
                                 padding: .9rem 2rem;
                                 transform: .2s liner;
+                                z-index: 1;
                             }
                             
                             header .logo {
@@ -50,7 +51,7 @@
                                 display: block;
                                 justify-content: center;
                                 position: absolute;
-                                top: 45%;
+                                top: 50%;
                                 box-shadow: 0 .3re, .5rem rgba(0, 0, 0, .3);
                                 font-size: large;
                             }
@@ -69,38 +70,39 @@
                                 transition: 1s;
                             }
                             
-                            .contact2 {
+                            .package {
                                 width: 100%;
-                                background: rgb(255, 255, 255);
-                                color: rgb(0, 131, 254);
+                                background: rgb(255, 0, 0);
+                                color: rgb(255, 255, 255);
                                 height: 28%;
                                 display: block;
                                 justify-content: center;
                                 position: absolute;
                                 top: 72%;
+                                text-transform: capitalize;
                                 box-shadow: 0 .3re, .5rem rgba(0, 0, 0, .3);
                                 font-size: large;
                             }
                             
-                            .contact2 h2 {
+                            .package h2 {
                                 position: absolute;
-                                top: 35%;
+                                top: 45%;
                                 font-family: 'Raleway', sans-serif;
-                                left: 45%;
+                                left: 46%;
                                 text-transform: capitalize;
                             }
                             
-                            .contact2:hover {
-                                background: rgb(1, 66, 126);
-                                color: #fff;
+                            .package:hover {
+                                background: rgb(255, 255, 255);
+                                color: rgb(255, 0, 0);
                                 font-size: x-large;
                                 transition: 1s;
                             }
                             
                             .about1 {
                                 width: 100%;
-                                background: rgb(116, 116, 116);
-                                color: rgb(0, 131, 254);
+                                background: rgb(52, 96, 173);
+                                color: rgb(255, 255, 255);
                                 height: 100%;
                                 display: block;
                                 justify-content: center;
@@ -109,24 +111,62 @@
                                 box-shadow: 0 .3re, .5rem rgba(0, 0, 0, .3);
                             }
                             
-                            .contact {
+                            .package1 {
                                 width: 100%;
-                                background: rgb(0, 0, 0);
-                                color: rgb(0, 131, 254);
+                                font-size: 90px;
+                                background: rgb(255, 0, 0);
+                                color: rgb(255, 255, 255);
                                 height: 100%;
                                 display: block;
+                                padding-top: 2%;
                                 justify-content: center;
                                 position: absolute;
                                 top: 200%;
                                 box-shadow: 0 .3re, .5rem rgba(0, 0, 0, .3);
                             }
                             
+                            .package1 h2 {
+                                padding-top: 90px;
+                            }
+                            
+                            .contact {
+                                width: 100%;
+                                background: rgb(50, 47, 47);
+                                color: rgb(255, 255, 255);
+                                height: 100%;
+                                display: block;
+                                justify-content: center;
+                                position: absolute;
+                                top: 400%;
+                                box-shadow: 0 .3re, .5rem rgba(0, 0, 0, .3);
+                            }
+                            
                             .contact h2 {
+                                padding-top: 40px;
+                                font-size: 100px;
+                                padding-left: 20px;
+                            }
+                            
+                            .service {
+                                width: 100%;
+                                background: rgb(255, 255, 255);
+                                color: rgb(0, 119, 255);
+                                height: 100%;
+                                display: block;
+                                justify-content: center;
+                                position: absolute;
+                                top: 300%;
+                                box-shadow: 0 .3re, .5rem rgba(0, 0, 0, .3);
+                            }
+                            
+                            .service h2 {
+                                padding-top: 45px;
                                 font-size: 100px;
                                 padding-left: 20px;
                             }
                             
                             .about1 h2 {
+                                padding-top: 35px;
                                 font-size: 100px;
                                 padding-left: 20px;
                             }
@@ -136,22 +176,45 @@
                                 background-image: url(aero.jpg);
                                 background-repeat: no-repeat;
                                 background-size: cover;
-                                height: 45%;
-                                top: 10%;
+                                height: 100%;
+                                padding-top: 10%;
                                 padding-left: 2%;
                             }
                             
                             .first {
-                                font-size: 24px;
+                                font-size: 50px;
+                                color: #fff;
+                            }
+                            
+                            #but1 {
+                                padding: 1% 1% 1% 1%;
+                                border-radius: 22px 22px;
+                                background: transparent;
+                                font-weight: bold;
+                                color: #fff;
+                                top: 120px;
+                                margin-right: 30px;
+                                margin-left: 40px;
+                                font-size: 30px;
+                                font-family: 'Mukta', sans-serif;
+                                border-color: #fff;
+                            }
+                            
+                            #but1:hover {
+                                background: #fff;
+                                color: rgb(55, 54, 54);
+                                font-size: 42px;
+                                transition: 0.6s;
                             }
                             
                             #but {
+                                margin-top: 5%;
                                 padding: 0.5% 0.5% 0.5% 0.5%;
                                 border-radius: 15px 50px 30px;
                                 background: transparent;
                                 font-weight: bold;
+                                font-size: 30px;
                                 color: #fff;
-                                font-size: 20px;
                                 font-family: 'Mukta', sans-serif;
                                 border-color: #fff;
                             }
@@ -159,7 +222,7 @@
                             #but:hover {
                                 background: #fff;
                                 color: rgb(55, 54, 54);
-                                font-size: 22px;
+                                font-size: 32px;
                                 transition: 0.6s;
                             }
                             
